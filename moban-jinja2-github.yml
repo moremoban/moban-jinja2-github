@@ -8,6 +8,7 @@ current_version: "0.0.1"
 release: "0.0.0"
 copyright_year: 2020
 license: newbsd
-dependencies: []
+dependencies: 
+  - gease
 description: "Github specific filters, tests and globals"
 lint_command: make install_test lint format git-diff-check
