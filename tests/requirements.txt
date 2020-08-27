@@ -8,6 +8,7 @@ isort
 collective.checkdocs
 pygments
 moban
+moban_jinja2_github
 moban
 black;python_version>="3.6"
 isort;python_version>="3.6"

@@ -4,6 +4,12 @@ releases:
 - changes:
   - action: first release
     details:
+    - cope with new born project where github link is not ready. contributors list will be empty.
+  version: 0.0.2
+  date: 28.08.2020
+- changes:
+  - action: first release
+    details:
     - first moban jinja2 globals: get contributors(minus author) from github. What a feat!
   version: 0.0.1
   date: 23.08.2020

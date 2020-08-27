@@ -2,10 +2,10 @@ name: "moban-jinja2-github"
 organisation: "moremoban"
 author: "chfw"
 contact: "info@moremoban.org"
-company: "chfw"
-version: "0.0.1"
-current_version: "0.0.1"
-release: "0.0.1"
+company: "C.W."
+version: "0.0.2"
+current_version: "0.0.2"
+release: "0.0.2"
 copyright_year: 2020
 license: newbsd
 dependencies: 
