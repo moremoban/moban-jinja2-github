@@ -9,6 +9,6 @@ release: "0.0.2"
 copyright_year: 2020
 license: newbsd
 dependencies: 
-  - gease
+  - gease>=0.0.7
 description: "Github specific filters, tests and globals"
 lint_command: make install_test lint format git-diff-check
