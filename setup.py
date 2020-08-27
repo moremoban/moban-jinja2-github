@@ -62,7 +62,7 @@ CLASSIFIERS = [
 
 
 INSTALL_REQUIRES = [
-    "gease",
+    "gease>=0.0.7",
 ]
 SETUP_COMMANDS = {}
 

@@ -1,1 +1,1 @@
-gease
+gease>=0.0.7
