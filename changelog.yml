@@ -2,6 +2,12 @@ name: moban-jinja2-github
 organisation: moremoban
 releases:
 - changes:
+  - action: added
+    details:
+    - moban.plugins.jinja2.filters.github is moved here
+  version: 0.0.3
+  date: tbd
+- changes:
   - action: first release
     details:
     - cope with new born project where github link is not ready. contributors list will be empty.
