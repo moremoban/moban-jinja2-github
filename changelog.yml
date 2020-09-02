@@ -6,7 +6,7 @@ releases:
     details:
     - moban.plugins.jinja2.filters.github is moved here
   version: 0.0.3
-  date: tbd
+  date: 02.09.2020
 - changes:
   - action: first release
     details:
