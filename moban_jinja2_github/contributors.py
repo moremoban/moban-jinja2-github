@@ -10,7 +10,7 @@ def get_contributors(user, repo, exclude_contributors=()):
         user_list = [
             detail
             for detail in user_list
-            if "name" in detail and detail["name"] not in exclude_contributors
+            if "login" in detail and detail["login"] not in exclude_contributors
         ]
         return user_list
     except UrlNotFound:

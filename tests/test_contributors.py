@@ -6,8 +6,8 @@ from gease.exceptions import UrlNotFound
 @patch("moban_jinja2_github.contributors.EndPoint")
 def test_get_contributors(fake_end_point):
     sample_contributors = [
-        {"name": "author"},
-        {"name": "ok", "url": "contributors"},
+        {"login": "author"},
+        {"login": "ok", "url": "contributors"},
     ]
     fake_api = MagicMock(
         get_all_contributors=MagicMock(return_value=sample_contributors)
@@ -17,7 +17,7 @@ def test_get_contributors(fake_end_point):
     from moban_jinja2_github.contributors import get_contributors
 
     actual = get_contributors("user", "repo", ["author"])
-    expected = [{"name": "ok", "url": "contributors"}]
+    expected = [{"login": "ok", "url": "contributors"}]
 
     eq_(list(actual), expected)
 
